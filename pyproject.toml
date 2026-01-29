@@ -1,0 +1,14 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "apscheduler>=3.11.2",
+    "playwright>=1.57.0",
+    "python-telegram-bot[job-queue]>=20.0",
+    "requests>=2.32.5",
+    "selenium>=4.40.0",
+    "sqlite-utils>=3.39",
+    "webdriver-manager>=4.0.2",
+]
